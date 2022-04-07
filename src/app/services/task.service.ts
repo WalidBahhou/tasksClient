@@ -15,7 +15,8 @@ const httpOptions = {
 })
 export class TaskService {
 
-  private apiURL = 'https://localhost:44383/api/Tasks'
+  // private apiURL = 'https://localhost:44383/api/Tasks'
+  private apiURL = 'https://localhost:5001/api/Tasks'
 
   constructor(private http:HttpClient) { }
 
